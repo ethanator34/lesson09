@@ -1,0 +1,28 @@
+caption{
+    caption-side: top;
+}
+.table-dark{
+    --bs-table-bg: #0d6efd;
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) { 
+    section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+ }
+
+
+form {
+    --bg-color: #f8f9fa; // Light gray
+    --text-color: #212529; // Dark gray
+  
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 1rem;
+    border-radius: 0.25rem;
+  }
+  
